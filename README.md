@@ -65,3 +65,9 @@ Here are some previews of the dashboard interface:
 
 ### Heatmap Feature
 ![Heatmap](Screenshots/heatmap.jpeg)
+
+### Email Results
+![Email Results](Screenshots/Email_Result.jpeg)
+
+### Email Preview
+![Email Preview](Screenshots/Email_Preview.jpeg)
