@@ -55,13 +55,13 @@ Feel free to fork the repository, make changes, and submit a pull request. Any s
 Here are some previews of the dashboard interface:
 
 ### Patient Information Placeholder
-![Theme and Mode](screenshots/main.jpeg)
+![Theme and Mode](Screenshots/main.jpeg)
 
 ### Prediction Feature
-![Prediction Feature](screenshots/prediction.jpeg)
+![Prediction Feature](Screenshots/prediction.jpeg)
 
 ### Uploaded X ray Image Feature
-![X ray Image](screenshots/xray.jpeg)
+![X ray Image](Screenshots/xray.jpeg)
 
 ### Heatmap Feature
-![Heatmap](screenshots/heatmap.jpeg)
+![Heatmap](Screenshots/heatmap.jpeg)
