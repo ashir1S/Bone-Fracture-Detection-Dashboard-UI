@@ -55,14 +55,13 @@ b.  **Run the app**
 
     ```r
     streamlit run dashboard.py  
-            
+    ```      
 2> **For Shiny app (R)**
 
     ```r
     shiny::runApp("app.R") 
-
-    ```r
     shiny::runApp("D:/AI/AI Bone Fracture Detection System Dashboard", launch.browser=TRUE)
+    ```
 
 ## Contributing
 
