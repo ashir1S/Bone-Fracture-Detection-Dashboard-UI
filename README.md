@@ -15,6 +15,7 @@ This is a **UI prototype** for a Bone Fracture Detection Dashboard created using
 
 - **Streamlit**: For creating and deploying the dashboard interface.
 - **HTML/CSS**: For custom embedded styles that enhance the UI design.
+- **Shiny**: For creating and deploying the dashboard interface with R.
 
 ## Getting Started
 
@@ -22,7 +23,15 @@ Follow these steps to get the dashboard running on your local machine:
 
 ### Prerequisites
 
-Make sure you have Python installed. Download Python from [python.org](https://www.python.org/downloads/) if necessary.
+For Python Make sure you have Python installed. Download Python from [python.org](https://www.python.org/downloads/) if necessary.
+
+For R Make sure you have **R** and **RStudio** installed.
+
+- 📦 [Download R](https://www.r-project.org/)
+- 🧰 [Download RStudio](https://www.rstudio.com/)
+- 📦 [Install Shiny](https://rstudio.cloud/docs/shiny/)
+
+---
 
 ### Installation
 
@@ -34,17 +43,25 @@ Make sure you have Python installed. Download Python from [python.org](https://w
    git clone https://github.com/ashir1S/Bone-Fracture-Detection-Dashboard-UI.git
    cd Bone-Fracture-Detection-Dashboard-UI
 
-2. **Install the required dependencies**
+2. **Prerequisites**
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+  a. **Install the required dependencies**
 
-3. **Run the app**
+            ```bash
+                pip install -r requirements.txt
+            ```
 
-    ```bash
-    streamlit run dashboard.py
-    ```
+   b.  **Run the app**
+
+            ```bash
+                streamlit run dashboard.py  
+            ```
+            ```bash
+                shiny::runApp("app.R") 
+            ```
+            ```bash
+                shiny::runApp("D:/AI/AI Bone Fracture Detection System Dashboard", launch.browser=TRUE)
+            ```
 
 ## Contributing
 
@@ -71,3 +88,7 @@ Here are some previews of the dashboard interface:
 
 ### Email Preview
 ![Email Preview](Screenshots/Email_Preview.jpeg)
+
+### Custom Setting Features
+![Custom Setting](Screenshots/Advance_settings.PNG)
+
