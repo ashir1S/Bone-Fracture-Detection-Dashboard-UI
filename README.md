@@ -42,7 +42,7 @@ For R Make sure you have **R** and **RStudio** installed.
    ```bash
    git clone https://github.com/ashir1S/Bone-Fracture-Detection-Dashboard-UI.git
    cd Bone-Fracture-Detection-Dashboard-UI
-
+   ```
 2. **Prerequisites**
 
   a. **Install the required dependencies**
@@ -52,10 +52,14 @@ For R Make sure you have **R** and **RStudio** installed.
             ```
 
    b.  **Run the app**
+        1>**For Streamlit app**
 
             ```bash
                 streamlit run dashboard.py  
             ```
+            
+        2> **For Shiny app (R)**
+
             ```bash
                 shiny::runApp("app.R") 
             ```
@@ -72,16 +76,16 @@ Feel free to fork the repository, make changes, and submit a pull request. Any s
 Here are some previews of the dashboard interface:
 
 ### Patient Information Placeholder
-![Theme and Mode](Screenshots/main.jpeg)
+![Theme and Mode](Screenshots/main1.jpeg)
 
 ### Prediction Feature
-![Prediction Feature](Screenshots/prediction.jpeg)
+![Prediction Feature](Screenshots/Prediction1.jpeg)
 
 ### Uploaded X ray Image Feature
-![X ray Image](Screenshots/xray.jpeg)
+![X ray Image](Screenshots/XRAY1.jpeg)
 
 ### Heatmap Feature
-![Heatmap](Screenshots/heatmap.jpeg)
+![Heatmap](Screenshots/HEATMAP1.jpeg)
 
 ### Email Results
 ![Email Results](Screenshots/Email_Result.jpeg)
