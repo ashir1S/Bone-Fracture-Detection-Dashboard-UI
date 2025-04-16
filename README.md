@@ -91,5 +91,5 @@ Here are some previews of the dashboard interface:
 ![Email Preview](Screenshots/Email_Preview.jpeg)
 
 ### Custom Setting Features
-![Custom Setting](Screenshots/Advance_settings.PNG)
+![Custom Setting](Screenshots/Advance_setting1.jpeg)
 
