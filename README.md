@@ -1,6 +1,6 @@
 # Bone Fracture Detection Dashboard (UI Prototype)
 
-This is a **UI prototype** for a Bone Fracture Detection Dashboard created using **Streamlit**. The focus of this prototype is on exploring an attractive dashboard layout, implementing a dark/light theme toggle, and ensuring responsive design. This project is purely for UI/UX design practice and does not include any functional machine learning integration.
+This is a **UI prototype** for a Bone Fracture Detection Dashboard created using **Streamlit**. The focus of this prototype is on exploring an attractive dashboard layout, implementing a dark/light theme toggle, and ensuring responsive design. This project is purely for UI/UX design practice and does not include any functional machine learning integrations.
 
 ⚠️ **Note**: This is not a functional detection system but a **UI/UX prototype**.
 
