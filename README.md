@@ -45,27 +45,27 @@ For R Make sure you have **R** and **RStudio** installed.
    ```
 2. **Prerequisites**
 
-  a. **Install the required dependencies**
+a. **Install the required dependencies**
 
-            ```bash
-                pip install -r requirements.txt
-            ```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-   b.  **Run the app**
-        1>**For Streamlit app**
+b.  **Run the app**
+1>**For Streamlit app**
 
-            ```bash
-                streamlit run dashboard.py  
-            ```
+    ```bash
+    streamlit run dashboard.py  
+    ```
             
-        2> **For Shiny app (R)**
+2> **For Shiny app (R)**
 
-            ```bash
-                shiny::runApp("app.R") 
-            ```
-            ```bash
-                shiny::runApp("D:/AI/AI Bone Fracture Detection System Dashboard", launch.browser=TRUE)
-            ```
+    ```bash
+    shiny::runApp("app.R") 
+    ```
+    ```bash
+    shiny::runApp("D:/AI/AI Bone Fracture Detection System Dashboard", launch.browser=TRUE)
+    ```
 
 ## Contributing
 
