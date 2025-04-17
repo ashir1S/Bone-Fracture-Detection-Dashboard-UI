@@ -52,17 +52,18 @@ pip install -r requirements.txt
 ```
 ### b.  **Run the app**
 
-    1> **For Streamlit app**
+1> **For Streamlit app**
 
-        ```bash
-        streamlit run dashboard.py 
-        ``` 
+```bash
+streamlit run dashboard.py 
+``` 
 
-    2> **For Shiny app (R)**
+2> **For Shiny app (R)**
 
-        ```r
-        shiny::runApp("app.R") 
-        shiny::runApp("D:/AI/AI Bone Fracture Detection System Dashboard", launch.browser=TRUE)
+```r
+shiny::runApp("app.R") 
+shiny::runApp("D:/AI/AI Bone Fracture Detection System Dashboard", launch.browser=TRUE)
+```
 
 ## Contributing
 
