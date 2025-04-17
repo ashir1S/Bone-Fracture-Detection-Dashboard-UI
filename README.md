@@ -54,8 +54,9 @@ pip install -r requirements.txt
 
     1> **For Streamlit app**
 
-        ```r
-        streamlit run dashboard.py  
+        ```bash
+        streamlit run dashboard.py 
+        ``` 
 
     2> **For Shiny app (R)**
 
